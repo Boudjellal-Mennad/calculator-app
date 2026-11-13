@@ -8,6 +8,11 @@ int add(int a, int b)
     return a + b;
 }
 
+int sub(int a, int b)
+{
+    return a - b;
+}
+
 int main() {
     int a = 5;
     int b = 2;
@@ -15,6 +20,9 @@ int main() {
     std::cout << multiply(a, b) << std::endl;
 
     std::cout << add(a, b) << std::endl;
+
+    std::cout << sub(a, b) << std::endl;
+
 
     return 0;
 }
